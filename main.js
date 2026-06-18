@@ -691,13 +691,15 @@ const renderThemes = () => {
 const renderPublications = () => {
   const groups = [
     {
-      title: "Computer Science, Database/Data Systems, and AI for Science",
-      note: "Database, data management, AI systems, NLP, AI for science, and computational materials.",
+      id: "publications-computer",
+      title: "AI and Data Science",
+      note: "Data management, database systems, AI/NLP, AI for science, FinTech, and social-good AI.",
       publications: data.publications.filter((pub) => getPublicationArea(pub) === "computer").sort(comparePublications)
     },
     {
-      title: "Tourism and Hospitality Management",
-      note: "Tourism, hospitality, digital service, consumer behavior, and travel analytics.",
+      id: "publications-tourism",
+      title: "Hospitality & Tourism",
+      note: "Smart tourism, hospitality technology, travel analytics, digital service, and consumer behavior.",
       publications: data.publications.filter((pub) => getPublicationArea(pub) === "tourism").sort((a, b) => {
         return Number(b.year) - Number(a.year) || cleanText(a.title).localeCompare(cleanText(b.title));
       })
@@ -710,6 +712,7 @@ const renderPublications = () => {
     if (!group.publications.length) return;
 
     const section = createEl("section", "publication-group");
+    section.id = group.id;
     const header = createEl("div", "publication-group-header");
     const heading = createEl("h3", null, group.title);
     header.append(heading);
