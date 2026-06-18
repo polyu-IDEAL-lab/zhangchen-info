@@ -398,14 +398,6 @@ window.siteData = {
       },
       {
           "year": 2025,
-          "title": "Next-Gen of Tourism: unleashing the potential of Metaverse, ChatGPT, Blockchain, Web 3.0, and Beyond",
-          "authors": "F Hao, C Zhang, S Park",
-          "venue": "Asia Pacific Journal of Tourism Research 30 (10), 1263-1265, 2025",
-          "source": "Google Scholar",
-          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U6-ouN0AAAAJ&pagesize=100&citation_for_view=U6-ouN0AAAAJ:sSrBHYA8nusC"
-      },
-      {
-          "year": 2025,
           "title": "Fast multi-view discrete clustering with two solvers",
           "authors": "Q Qiang, B Zhang, JC Zhang, F Nie",
           "venue": "Pattern Recognition, 112415, 2025",
