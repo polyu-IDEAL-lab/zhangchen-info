@@ -19,60 +19,24 @@ window.siteData = {
 
   directions: [
     {
-      group: "Computer Science",
-      summary:
-        "AI and data systems research on data management, scientific discovery, FinTech markets, and socially beneficial health support.",
-      items: [
-        {
-          title: "AI/NLP for Data Management",
-          kicker: "Data management",
-          text:
-            "LLM- and NLP-powered methods for data visualization, database querying, retrieval, data quality, schema matching, and human-in-the-loop data systems."
-        },
-        {
-          title: "AI for Science",
-          kicker: "Energy AI",
-          text:
-            "Data-centric AI workflows for energy-related materials, chemistry, organic solar cells, CO2 sequestration, and scientific discovery collaborations."
-        },
-        {
-          title: "FinTech and Quantitative Trading",
-          kicker: "Crypto markets",
-          text:
-            "Data-driven modeling, market intelligence, and quantitative trading research for financial technology, with particular interest in crypto markets."
-        },
-        {
-          title: "AI for Social Goods",
-          kicker: "Mental health AI",
-          text:
-            "AI systems that support people with mental disorders through responsible prediction, decision support, privacy-aware analytics, and human-centered care workflows."
-        }
-      ]
+      title: "AI/NLP for Data Management",
+      text: "Natural language interfaces for databases, text-to-visualization, retrieval, data quality, and human-in-the-loop data systems."
     },
     {
-      group: "Tourism and Hospitality Management",
-      summary:
-        "Management research on AI-enabled hospitality, tourism platforms, service operations, and user behavior.",
-      items: [
-        {
-          title: "AI for Hospitality Management",
-          kicker: "Hospitality AI",
-          text:
-            "How generative AI, recommendation, and automation change travel inspiration, hotel decision-making, employee training, and service encounters."
-        },
-        {
-          title: "Tourism Analytics and Recommendation",
-          kicker: "Decision support",
-          text:
-            "Data-driven models for tourism demand, online platforms, recommendation, customer satisfaction, and travel behavior."
-        },
-        {
-          title: "Digital Service and User Behavior",
-          kicker: "Service technology",
-          text:
-            "Digital nudges, avatars, virtual lodging, privacy concerns, and technology-mediated customer decision-making."
-        }
-      ]
+      title: "AI for Science",
+      text: "Data-centric AI for energy-related materials, chemistry, organic solar cells, CO2 sequestration, and scientific discovery."
+    },
+    {
+      title: "FinTech and Quantitative Trading",
+      text: "Data mining, market intelligence, and quantitative trading, with a particular interest in crypto markets."
+    },
+    {
+      title: "AI for Hospitality Management",
+      text: "Generative AI, recommendation, tourism analytics, smart tourism, and technology-mediated service management."
+    },
+    {
+      title: "AI for Social Goods",
+      text: "Responsible AI and privacy-aware analytics to support people with mental disorders and human-centered care workflows."
     }
   ],
 

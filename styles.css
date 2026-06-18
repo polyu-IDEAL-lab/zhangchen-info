@@ -367,7 +367,6 @@ h4 {
 }
 
 .news-item,
-.direction-card,
 .surface {
   background: var(--surface);
   border-radius: 4px;
@@ -393,7 +392,6 @@ h4 {
 }
 
 .news-item p:last-child,
-.direction-card p:last-child,
 .theme-row p,
 .surface li {
   color: var(--muted);
@@ -407,48 +405,21 @@ h4 {
   margin: 0;
 }
 
-.direction-lanes {
+.interest-lines {
+  max-width: 920px;
   display: grid;
-  gap: 18px;
+  gap: 10px;
 }
 
-.direction-lane {
-  display: grid;
-  grid-template-columns: minmax(220px, 0.46fr) minmax(0, 1fr);
-  gap: 20px;
-  padding: 18px;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 4px;
-}
-
-.direction-lane-header p:last-child {
-  margin: 14px 0 0;
+.interest-line {
+  margin: 0;
   color: var(--muted);
+  line-height: 1.65;
 }
 
-.direction-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-}
-
-.direction-card {
-  min-height: 190px;
-  padding: 16px;
-  border: 1px solid var(--line);
-}
-
-.card-kicker {
-  margin: 0 0 16px;
-  color: var(--copper);
-  font-size: 0.78rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.direction-card p:last-child {
-  margin: 18px 0 0;
+.interest-line strong {
+  color: var(--ink);
+  font-weight: 820;
 }
 
 .split {
@@ -827,11 +798,6 @@ h4 {
     max-width: 440px;
   }
 
-  .direction-lane,
-  .direction-grid {
-    grid-template-columns: 1fr;
-  }
-
   .sticky-block {
     position: static;
   }
@@ -887,13 +853,8 @@ h4 {
     align-items: stretch;
   }
 
-  .news-item,
-  .direction-grid {
+  .news-item {
     grid-template-columns: 1fr;
-  }
-
-  .direction-card {
-    min-height: auto;
   }
 
   .theme-row {

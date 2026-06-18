@@ -664,28 +664,19 @@ const comparePublications = (a, b) => {
 };
 
 const renderDirections = () => {
-  data.directions.forEach((track) => {
-    const lane = createEl("article", "direction-lane");
-    const header = createEl("div", "direction-lane-header");
-    header.append(createEl("p", "card-kicker", track.group));
-    header.append(createEl("h3", null, track.group));
-    header.append(createEl("p", null, track.summary));
-    lane.append(header);
+  if (!directionList) return;
 
-    const grid = createEl("div", "direction-grid");
-    track.items.forEach((item) => {
-      const card = createEl("section", "direction-card");
-      card.append(createEl("p", "card-kicker", item.kicker));
-      card.append(createEl("h3", null, item.title));
-      card.append(createEl("p", null, item.text));
-      grid.append(card);
-    });
-    lane.append(grid);
-    directionList.append(lane);
+  data.directions.forEach((item) => {
+    const row = createEl("p", "interest-line");
+    row.append(createEl("strong", null, item.title));
+    row.append(document.createTextNode(`: ${item.text}`));
+    directionList.append(row);
   });
 };
 
 const renderThemes = () => {
+  if (!themeList) return;
+
   data.themes.forEach((item, index) => {
     const article = createEl("article", "theme-row");
     article.append(createEl("span", "theme-index", String(index + 1).padStart(2, "0")));
