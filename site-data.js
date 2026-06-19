@@ -87,6 +87,8 @@ window.siteData = {
     { name: "Zhuohan Ge", aliases: ["Z Ge", "Ge Zhuohan"] },
     { name: "Kunlei Jing", aliases: ["K Jing", "Jing Kunlei"] },
     { name: "Haoran Luo", aliases: ["Luo Haoran", "H Luo"] },
+    { name: "Zhiqian Qin", aliases: ["Z Qin", "Qin Zhiqian"] },
+    { name: "Mingtao Zhang", aliases: ["M Zhang", "Mintao Zhang", "Zhang Mingtao", "Zhang Mintao"] },
     { name: "Hebo Ma", aliases: ["Ma Hebo", "H Ma"] }
   ],
 
@@ -146,6 +148,20 @@ window.siteData = {
           "title": "Towards Robust and Interactive Text-to-Visualization Translation: Enhancing Model Robustness and Mitigating Ambiguity in Natural Language Queries",
           "authors": "Jinwei Lu, Wenxin Xu, Yuanfeng Song, Haodi Zhang, Chen Jason Zhang, Kaishun Wu, Xiaoyong Wei, Raymond Chi-Wing Wong",
           "venue": "The VLDB Journal, 2026",
+          "link": ""
+      },
+      {
+          "year": 2026,
+          "title": "GraphAgent: An Effective Knowledge-Guided GNN Model Selection System",
+          "authors": "Mingtao Zhang, Haoyang Li, Yuming Xu, Nicole Hu, Peng Cheng, Chen Jason Zhang, Qing Li, Lei Chen",
+          "venue": "Proceedings of the VLDB Endowment (PVLDB Demonstrations), 2026",
+          "link": ""
+      },
+      {
+          "year": 2026,
+          "title": "QueryCraft: A Natural Language-Driven NoSQL Database Querying System Powered by Large Language Models",
+          "authors": "Jinwei Lu, Zhiqian Qin, Chen Zhang, Haodi Zhang, Yuanfeng Song, Raymond Chi-Wing Wong",
+          "venue": "Proceedings of the VLDB Endowment (PVLDB Demonstrations), 2026",
           "link": ""
       },
       {
